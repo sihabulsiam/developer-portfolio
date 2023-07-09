@@ -63,11 +63,19 @@ nav a{
 .banner-title{
     font-size: 85px;
     font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+
 }
 
 /* main section styles */
 
 /* about section styles */
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 .about{
     padding: 130px;
@@ -87,4 +95,11 @@ nav a{
     text-align: center;
     font-size: 18px;
 
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
 }
